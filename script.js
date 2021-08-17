@@ -1,5 +1,5 @@
 
-function bankCaculation(type, isAdd) {
+function bankCalculation(type, isAdd) {
 
     // input field
     const amountInput = document.getElementById(type + '-input');
@@ -54,7 +54,7 @@ document.getElementById('deposit-button').addEventListener('click', function () 
      const depositInputText = depositInput.value;
      const depositInputAmount = parseFloat(depositInputText); */
 
-    bankCaculation('deposit', true);
+    bankCalculation('deposit', true);
 
     /*   const depositTotal = document.getElementById('deposit-total');
       const depositTotalText = depositTotal.innerText;
@@ -77,7 +77,7 @@ document.getElementById('deposit-button').addEventListener('click', function () 
 // withdraw event
 document.getElementById('withdraw-button').addEventListener('click', function () {
 
-    bankCaculation('withdraw', false);
+    bankCalculation('withdraw', false);
 
     /*     const withdrawInput = document.getElementById('withdraw-input');
         const withdrawInputText = withdrawInput.value;
